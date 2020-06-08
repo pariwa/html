@@ -1,0 +1,48 @@
+:root {
+  /* CSS */
+  --cg-blue: #247ba0;
+  --green-sheen: #70c1b3;
+  --turquoise-green: #b2dbbf;
+  --pale-spring-bud: #f3ffbd;
+  --radical-red: #ff1654;
+}
+
+body {
+  font-family: "Cinzel", serif;
+}
+
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  border: var(--radical-red) 2px solid;
+  background-color: var(--pale-spring-bud);
+}
+
+.about-me {
+  display: flex;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects div {
+  background-color: var(--green-sheen);
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.one-edge-shadow {
+  box-shadow: 0 8px 6px -6px black;
+}
